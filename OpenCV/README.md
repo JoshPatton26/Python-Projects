@@ -29,13 +29,13 @@ Each subdirectory in this repository corresponds to a specific project or exampl
 1. Clone the Repository:
 
     ```bash
-    git clone https://github.com/JoshPatton26/OpenCV.git
+    git clone https://github.com/JoshPatton26/OpenCV-Basics.git
     ```
 
 2. Navigate to Repository:
 
     ```bash
-    cd OpenCV
+    cd OpenCV-Basics
     ```
 
 3. Install OpenCV Library:
