@@ -1,0 +1,12 @@
+CS355 Probability and Statistics in CS: HW3 Poker Hand Simulator/Full House Counter
+
+In this assignment I was tasked to create a program that would simulate a randomly drawn
+5-card hand and to get the probability of getting a full house. My program was designed to
+run 1000 iterations each generating a 5-card hand from 4 different arrays which represented
+the different suit of the cards (Spade, Clubs, Hearts, Diamonds). 
+
+My program generated P(Full House) ~ 0.009% in a randomly drawn hand. 
+
+To run this program you might have to pip install python's "random" library to get the program 
+to function properly. I ran mine on VS Code however it shouldn't have any issues running on any 
+other IDE, but hasn't been tested.

@@ -1,0 +1,15 @@
+CS355 Probability and Statistics in CS: HW4 Area Under the Curve/Riemann Sum Calculator
+
+In this assignment I was tasked to create a program that would simulate the area under the 
+curve of the function f(x) = sin(x) * cos(x) from 0 to 4pi. My approach was to use Riemann Sum 
+method with the mid-point rule, to generate an approximation for this area. The instructions 
+for this assignment clearly stated for us to consider all areas as positive areas which causes 
+the answer to differ from a normal Riemann Sum calculator. In my program I allow the user to 
+determine how many rectangles they want to use, the more rectangles the more precise on an 
+approximation.
+
+My program generated an area of ~ 3.99 when using 100 rectangles.
+
+To run this program you might have to pip install python's "math" library to get the program 
+to function properly, but shouldn't be necessary. I ran mine on VS Code however it shouldn't 
+have any issues running on any other IDE, but hasn't been tested.

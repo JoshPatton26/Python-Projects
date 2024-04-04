@@ -1,0 +1,12 @@
+CS355 Probability and Statistics in CS: HW7 Predicting Wait Times.
+
+In this assignment I was tasked to create a program that would simulate the wait time for a 
+person who takes a bus to get to work. The assignment gave us a range of discrete random 
+variables of when the person shows up to the bus station which decides which bus the person 
+will take to work. When the persons wait time will vary depending on the time they arrive to
+the bus station. The assignment also wanted us to plot the wait times on a graph of frequency
+vs. wait times using a Histogram graph.
+
+To run this program you might have to pip install python's "numpy.random" and "matplotlib.pyplot" 
+library to get the program to function properly. I ran mine on VS Code however it shouldn't 
+have any issues running on any other IDE, but hasn't been tested.
