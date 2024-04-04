@@ -14,7 +14,7 @@ In addition to course projects, this repository includes a password manager appl
 Another project in this repository involves parsing and filtering data from a CSV file. This project demonstrates proficiency in file handling, data manipulation, and filtering techniques using Python.
 
 ### OpenCV Projects
-This section showcases projects developed using the OpenCV library, which is widely used for computer vision tasks. These projects may include image processing, object detection, face recognition, and more, providing hands-on experience in computer vision applications.
+This section showcases projects developed using the OpenCV library, which is widely used for computer vision tasks. These projects include image processing, object detection, face detection, and more, providing hands-on experience in computer vision applications.
 
 ### Graphing and Plotting Project
 This section involves displaying graphing and plotting in Python. This project explores various Python libraries for data visualization, such as Matplotlib, Seaborn, or Plotly, to create informative and visually appealing plots and graphs.
