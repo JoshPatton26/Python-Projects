@@ -1,0 +1,23 @@
+CS355 Probability and Statistics in CS: Project 3 Layover Flight Simulator
+
+In this assignment I was tasked to create a program that would simulate two different airlines
+layover flights from A to D. For this program we were told to work in groups and split up the 
+work accordingly. I was grouped with Vaishak Menon, a classmate from UAB.
+
+The assignment had you start at A which has one flight to B, depending on the time that you arrive 
+at B will determine which of the two flights you will catch to go from B to C, once again, depending 
+on the time you arrive to C will determine which of the three flights you will take from C to D. 
+Flight times were determined by using a normal random variable using the values of the mean and 
+standard deviation, both values were provided in the assignment PDF. To generate these I used the 
+build in random.normal function. These values were bounded by a min and max that was provided in the
+assignment PDF to help make it more realistic with the rare extreme values produced by this function.
+If the persons flight took longer than expected and caused them to miss all the next flights for the
+upcoming destination, they were considered stranded. The assignment then asked up to answer questions
+based off our results.
+
+To see the questions that we were asked and to get more information about the program expectations
+and calculations, please refer to Program III.pdf in this repository.
+
+To run this program you might have to pip install python's "numpy.random" library to get the program 
+to function properly. I ran mine on VS Code however it shouldn't have any issues running on any other 
+IDE, but hasn't been tested.

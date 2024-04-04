@@ -1,0 +1,135 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{adjustbox}
+
+\begin{document}
+	\begin{titlepage}
+		\begin{center}
+			\hspace{0pt}
+				\vfill
+					\Huge CS 355: Program 1\\
+					\Large Josh Patton \& Vaishak Menon\\
+					\Large 03/02/2023
+				\vfill
+			\hspace{0pt}
+            \small We declare that we have completed this assignment in accordance with 
+            the UAB Academic Integrity Code and the UAB CS Honor Code. We have 
+            read the UAB Academic Integrity Code and understand that any breach 
+            of the Code may result in severe penalties.
+            We  also  declare  that  the  following  percentage  distribution 
+            faithfully  represents  individual  group  members’  contributions  to 
+            the completion of the assignment\\
+            \small Vaishak Menon, 50\% contribution, Partial Code Work and Partial Report Work, VM, 03/02/2023
+            \small Josh Patton, 50\% contribution, Partial Code Work and Partial Report Work, JP, 03/02/2023
+		\end{center}
+	\end{titlepage}
+	\newpage
+	\begin{center}
+	\Large Report\\
+	\end{center}
+    \begin{enumerate}
+        \item Functionality:
+        \subitem The code has 3 main functions: shuffle, splitArray, and plotR. The shuffle function will create an array
+        of size n based on the given bounds. It will then call splitArray to get the properly shuffled array and 
+        then compute the correlation coefficient on every shuffle done. After the shuffling is complete, we call plotR to 
+        plot the correlation for each run.
+    \end{enumerate}
+    \begin{center}
+        \small First Run
+    \end{center}
+    \begin{enumerate}
+        \item Plot r with respect to the times of shuffling. After how many shuffles are the cards 
+        in the most random order? (That is, when is r at a minimum value?)
+        \subitem The cards are in the most random order at shuffle 3 and 11.\\
+        \begin{minipage}[t]{\linewidth}
+            \centering
+            \adjustbox{valign=t halign=t}
+            {
+              \includegraphics[width=.7\linewidth]{Figure_1.png}
+            }
+            \medskip       
+        \end{minipage}
+        \item Do the cards return to their original order?  After how many runs?
+        \subitem They eventually return to the original order at around run 6, 8, and 11.
+        \item Is a total of 15 runs enough to return to the original order?
+        \subitem It is enough runs to return to 15 as shown in the graph above.
+        \item If not, does it appear that the cards will return to their original order in a relatively 
+        small number of shuffles?
+        \subitem In this case, it does return and it continues to look like it will reach again.
+    \end{enumerate}
+    \newpage
+    \begin{center}
+        \small Second Run
+    \end{center}
+    \begin{enumerate}
+        \item Plot r with respect to the times of shuffling. After how many shuffles are the cards 
+        in the most random order? (That is, when is r at a minimum value?)
+        \subitem The cards are in the most random order at shuffle 9, which is the lowest point for this graph.\\
+        \begin{minipage}[t]{\linewidth}
+            \centering
+            \adjustbox{valign=t halign=t}
+            {
+              \includegraphics[width=.7\linewidth]{Figure_2.png}
+            }
+            \medskip       
+        \end{minipage}
+        \item Do the cards return to their original order?  After how many runs?
+        \subitem The cards do not return to their original order, based on the correlations calculated.
+        \item Is a total of 15 runs enough to return to the original order?
+        \subitem It is not enough to get back to the original order within 15 runs.
+        \item If not, does it appear that the cards will return to their original order in a relatively 
+        small number of shuffles?
+        \subitem In this case, it does not appear to be rebounding at a consistent pace to return to the original order.
+    \end{enumerate}
+    \newpage
+    \begin{center}
+        \small Third Run
+    \end{center}
+    \begin{enumerate}
+        \item Plot r with respect to the times of shuffling. After how many shuffles are the cards 
+        in the most random order? (That is, when is r at a minimum value?)
+        \subitem The cards are in the most random order at shuffle 9, which is the lowest point for this graph.\\
+        \begin{minipage}[t]{\linewidth}
+            \centering
+            \adjustbox{valign=t halign=t}
+            {
+              \includegraphics[width=.7\linewidth]{Figure_3.png}
+            }
+            \medskip       
+        \end{minipage}
+        \item Do the cards return to their original order?  After how many runs?
+        \subitem The cards do not return to their original order, based on the correlations calculated.
+        \item Is a total of 15 runs enough to return to the original order?
+        \subitem It is not enough to get back to the original order within 15 runs.
+        \item If not, does it appear that the cards will return to their original order in a relatively 
+        small number of shuffles?
+        \subitem In this case, it does not appear to be rebounding at a consistent pace to return to the original order.
+    \end{enumerate}
+    \newpage
+    \begin{center}
+        \small Fourth Run
+    \end{center}
+    \begin{enumerate}
+        \item Plot r with respect to the times of shuffling. After how many shuffles are the cards 
+        in the most random order? (That is, when is r at a minimum value?)
+        \subitem The cards are in the most random order at shuffle 6, which is the lowest point for this graph.\\
+        \begin{minipage}[t]{\linewidth}
+            \centering
+            \adjustbox{valign=t halign=t}
+            {
+              \includegraphics[width=.7\linewidth]{Figure_4.png}
+            }
+            \medskip       
+        \end{minipage}
+        \item Do the cards return to their original order?  After how many runs?
+        \subitem The cards do not return to their original order, based on the correlations calculated.
+        \item Is a total of 15 runs enough to return to the original order?
+        \subitem It is does reach the original order at around shuffle 11 and 13.
+        \item If not, does it appear that the cards will return to their original order in a relatively 
+        small number of shuffles?
+        \subitem In this case it does appear within the graph that the original order is reached based on correlation.
+    \end{enumerate}
+\end{document}
