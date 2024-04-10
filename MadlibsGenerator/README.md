@@ -10,6 +10,14 @@ This Python program, Madlibs Generator, reads in a story from the story.txt file
 4. After the user has provided all the words, the program replaces the placeholders with the user's inputs.
 5. Finally, the program prints out the new story with the replaced words for the user to read.
 
+## Learning Objectives
+This project serves as an educational tool for learning how to:
+
+- Read data from a file.
+- Parse text data to identify placeholders.
+- prompt users for input to store their responses.
+- Modify text data based on user input.
+
 ## Usage
 
 1. Make sure you have Python installed on your system.
