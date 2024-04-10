@@ -8,7 +8,7 @@ The Timed Math Challenge is designed to provide users with a fun and interactive
 
 ## Features
 
-- Generate random math problemsconsisting of addition, subtraction, and multiplication.
+- Generate random math problems consisting of addition, subtraction, and multiplication.
 - Times the user's responses to calculate how long it takes to completes all questions
 - Keeps track of wrong answers provided by the user.
 
