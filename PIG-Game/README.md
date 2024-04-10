@@ -20,10 +20,11 @@ The game of PIG is a multiplayer game where each player takes turns rolling a di
 4. Follow the prompts to enter the number of players and play the game.
 
 ## Example Usage
-
+Navigate to the correct directory.
 ```bash
 cd ../PIG-Game
 ```
-
+Run the .py file.
 ```bash
 python pig_game.py
+```
