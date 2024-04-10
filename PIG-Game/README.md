@@ -23,6 +23,7 @@ The game of PIG is a multiplayer game where each player takes turns rolling a di
 
 ```bash
 cd ../PIG-Game
+```
 
 ```bash
 python pig_game.py
