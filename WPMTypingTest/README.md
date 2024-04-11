@@ -37,7 +37,7 @@ Navigate to the correct directory:
    ```bash
    cd ../WPMTypingTest
    ```
-Make sure the libratries are installed:
+Make sure the libraries are installed:
    ```bash
    pip install TIME-python
    ```
