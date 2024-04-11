@@ -22,11 +22,15 @@ The Timed Math Challenge is designed to provide users with a fun and interactive
 6. Once you've completed all the questions, the program will display your total time and the number of wrong answers.
 
 ## Example Usage
-
+Clone the repository:
+   ```bash
+   git clone https://github.com/JoshPatton26/Python-Projects/MathChallenge
+   ```
+Navigate to the correct directory:
+   ```bash
+   cd ../MathChallenge
+   ```
+Run the Python file:
 ```bash
-cd ../MathChallenge
-```
-
-```bash
-python math_challenge.py
+    python math_challenge.py
 ```

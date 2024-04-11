@@ -31,7 +31,7 @@ WPM Typing Test is a Python project that allows users to test their typing speed
 
 Clone the repository:
    ```bash
-   git clone https://github.com/your-username/wpm-typing-test.git
+   git clone https://github.com/JoshPatton26/Python-Projects/WPMTypingTest
    ```
 Navigate to the correct directory:
    ```bash
