@@ -83,9 +83,9 @@ def mostCommonMegaBall(df):
     for i in range(len(df)):
         mstcmn[df['Mega Ball'][i]] += 1
     
-    shit = ravel(mstcmn.most_common(1))
+    lotNums = ravel(mstcmn.most_common(1))
 
-    print("\nThe number", shit[0], "appeared", shit[1], "times since January 1st, 2002 : 12:00:00AM(EST)")
+    print("\nThe number", lotNums[0], "appeared", lotNums[1], "times since January 1st, 2002 : 12:00:00AM(EST)")
 
 def mostCommonLotNums(df):
     mstcmn = collections.Counter()
@@ -111,7 +111,7 @@ def menu():
     inp = int(input("1: Lottery Data \n2: Crime Data \n3: Obesity Data \n\nTo exit enter -1 \n\nEnter the number of the dataset you would like to use: "))
     if inp != -1:
         if(inp == 1):
-            df = pandas.read_csv('CSVFiles\WinningLotteryNumbersSince2002.csv')
+            df = pandas.read_csv('CSVOperations\CSVFiles\WinningLotteryNumbersSince2002.csv')
             val = int(input("1: Most Common Mega Ball number \n2: Mega Ball number count since 2002 \n2: Most common winning lottery numbers \n\nTo exit enter -1 \n\nEnter the number of the data you would like to use: "))
             if(val == 1):
                 mostCommonMegaBall(df)
@@ -122,7 +122,7 @@ def menu():
             elif(val == -1):
                 exit()
         elif(inp == 2):
-            df = pandas.read_csv('CSVFiles\CrimeDataSince2020.csv')
+            df = pandas.read_csv('CSVOperations\CSVFiles\CrimeDataSince2020.csv')
             val = int(input("1: Look up crime by division \n2: Look up crime by crime type \n3: Most common crimes \n\nTo exit enter -1 \n\nEnter the number of the data you would like to use: "))
             if(val == 1):
                 crimeByDivision(df)
@@ -133,7 +133,7 @@ def menu():
             elif(val == -1):
                 exit()
         elif(inp == 3):
-            df = pandas.read_csv('CSVFiles\ObesityByState.csv')
+            df = pandas.read_csv('CSVOperations\CSVFiles\ObesityByState.csv')
             val = int(input("1: Look up data by State \n2: State with highest obesity rate \n3: State with the lowest obesity rate \n\nTo exit enter -1 \n\nEnter the number of the data you would like to use: "))
             if(val == 1):
                 obesityByState(df)
