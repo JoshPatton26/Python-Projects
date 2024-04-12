@@ -150,5 +150,8 @@ def main(stdscr):
     elif chr(key) == "3":
         findPath(larger_maze, stdscr)
         stdscr.getch()
+    else:
+        stdscr.addstr("\nNot a valid input, try again. (1 = small, 2 = medium, 3 = large): ")
+        stdscr.getch()
 
 wrapper(main)
