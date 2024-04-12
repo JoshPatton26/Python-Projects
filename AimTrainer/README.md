@@ -29,6 +29,10 @@ Navigate to the correct directory:
    ```bash
    cd ../AimTrainer
    ```
+Install the pygame library:
+   ```bash
+   pip install pygame
+   ```
 Run the Python file:
    ```bash
    python aim-trainer.py
