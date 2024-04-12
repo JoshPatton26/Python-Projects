@@ -1,10 +1,6 @@
 # Shortest Path
 
-Shortest Path is a Python program that utilizes the breadth-first search algorithm and the queue data structure to find the shortest path from the start to the finish in a maze.
-
-## Introduction
-
-Shortest Path is designed to find the shortest path from the start ('O') to the finish ('X') in a maze. It uses the breadth-first search algorithm, which explores all possible paths from the start until it finds the finish. The program visualizes the algorithm's progress in real-time using the curses module.
+The Shortest Path project is designed to find the shortest path from the start ('O') to the finish ('X') in a maze. It uses the breadth-first search algorithm, which explores all possible paths from the start until it finds the finish. The program visualizes the algorithm's progress in real-time using the curses module.
 
 ## Learning Objectives
 
