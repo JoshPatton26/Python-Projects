@@ -21,6 +21,8 @@ This project introduces the idea of using Python to execute system-level command
 
 ## Installation
 
+Make sure you have the Go interpreter installed by going to https://go.dev/ and downloading for the respective operating system:
+
 Clone the repository:
    ```bash
    git clone https://github.com/JoshPatton26/Python-Projects/PythonScripting.git
@@ -29,8 +31,6 @@ Navigate to the correct directory:
    ```bash
    cd ../PythonScripting
    ```
-Make sure you have the Go interpreter installed by going to https://go.dev/ and downloading for the respective operating system:
-
 Run the Python file using "python main.py (source directory) (target directory)":
    ```bash
    python main.py data target
