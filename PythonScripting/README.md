@@ -1,6 +1,6 @@
 # Python Scripting
 
-This project introduces the idea of using Python to execute system-level commands. The program parses through a directory called "data" and retrieves all the game data from within this directory. It then copies this data into a newly created directory called "target". This project also includes running commands that compile and execute the `.go` game files that are contained within the newly created directory.
+This project introduces the concept of utilizing Python to execute system-level commands. The program parses through a directory named "data" and retrieves all the game data from within this directory. It then obtains a list of all the paths and copies this data into a newly created directory named "target". This project also includes running commands that compile and execute the `.go` game files that are contained within the newly created directory.
 
 ## Features
 
@@ -13,10 +13,13 @@ This project introduces the idea of using Python to execute system-level command
 ## Learning Objectives
 
 - Utilizing Python's `os` module for file and directory operations.
-- Parsing directory structures using `os.walk()`.
 - Working with command-line arguments using `sys.argv`.
+- Dynamically obtaining the current working directory using `os.getcwd()`.
+- Parsing directory structures using `os.walk()`.
+- Switching between directories using `os.chdir()`.
 - Copying directories and files using `shutil.copytree()`.
-- Creating and writing to JSON files.
+- Recursively deleteing directories and files using `shutil.rmtree()`.
+- Creating and writing to JSON files using a context manager and `json.dump()`.
 - Running system commands from within Python using `subprocess.run()`.
 
 ## Installation
